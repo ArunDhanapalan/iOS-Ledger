@@ -115,7 +115,6 @@ struct HomeView: View {
                                         innerRadius: .ratio(0.6),
                                         angularInset: 1.5
                                     )
-                                    .cornerRadii(4)
                                     .foregroundStyle(category.color)
                                 }
                             }
