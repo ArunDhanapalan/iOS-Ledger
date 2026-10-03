@@ -1,0 +1,30 @@
+workflows:
+  ios-simulator-build:
+    name: iOS App (Simulator & Preview Build)
+    max_build_duration: 30
+    instance_type: mac_mini_m2
+    environment:
+      xcode: latest
+      cocoapods: default
+    scripts:
+      - name: Build iOS Simulator App
+        script: |
+          set -e
+          echo "Building Ledger for iOS Simulator..."
+          xcodebuild \
+            -project "Ledger.xcodeproj" \
+            -scheme "Ledger" \
+            -sdk iphonesimulator \
+            -configuration Debug \
+            -derivedDataPath "build" \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            clean build
+          
+          # Package the simulator .app into a zip for Codemagic App Preview & artifacts
+          cd build/Build/Products/Debug-iphonesimulator
+          zip -r Ledger-Simulator.zip Ledger.app
+          echo "Build successful! Ledger-Simulator.zip created."
+    artifacts:
+      - build/Build/Products/Debug-iphonesimulator/Ledger-Simulator.zip
+      - build/Build/Products/Debug-iphonesimulator/Ledger.app
