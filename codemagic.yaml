@@ -26,5 +26,5 @@ workflows:
           zip -r Ledger-Simulator.zip Ledger.app
           echo "Build successful! Ledger-Simulator.zip created."
     artifacts:
-      - build/Build/Products/Debug-iphonesimulator/Ledger-Simulator.zip
-      - build/Build/Products/Debug-iphonesimulator/Ledger.app
+      - build/**/Products/Debug-iphonesimulator/*.zip
+      - build/**/Products/Debug-iphonesimulator/*.app
