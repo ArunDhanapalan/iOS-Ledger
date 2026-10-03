@@ -7,41 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B00100000000000000000001 /* LedgerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00100000000000000000001 /* LedgerApp.swift */; };
-		B00100000000000000000002 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00100000000000000000002 /* Category.swift */; };
-		B00100000000000000000003 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00100000000000000000003 /* Expense.swift */; };
-		B00100000000000000000004 /* ExpenseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00100000000000000000004 /* ExpenseStore.swift */; };
-		B00100000000000000000005 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00100000000000000000005 /* MainTabView.swift */; };
-		B00100000000000000000006 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00100000000000000000006 /* DashboardView.swift */; };
-		B00100000000000000000007 /* CategoryPieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00100000000000000000007 /* CategoryPieChartView.swift */; };
-		B00100000000000000000008 /* SummaryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00100000000000000000008 /* SummaryCardView.swift */; };
-		B00100000000000000000009 /* ExpenseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00100000000000000000009 /* ExpenseListView.swift */; };
-		B00100000000000000000010 /* ExpenseRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00100000000000000000010 /* ExpenseRowView.swift */; };
-		B00100000000000000000011 /* ExpenseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00100000000000000000011 /* ExpenseDetailView.swift */; };
-		B00100000000000000000012 /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00100000000000000000012 /* AddExpenseView.swift */; };
-		B00100000000000000000013 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00100000000000000000013 /* CategoriesView.swift */; };
-		B00100000000000000000014 /* CategoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00100000000000000000014 /* CategoryRowView.swift */; };
+		B00100000000000000000001 /* ExpenseTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00100000000000000000001 /* ExpenseTrackerApp.swift */; };
+		B00100000000000000000002 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00100000000000000000002 /* Expense.swift */; };
+		B00100000000000000000003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00100000000000000000003 /* ContentView.swift */; };
 		B00100000000000000000015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00100000000000000000015 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		100000000000000000000006 /* Ledger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ledger.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A00100000000000000000001 /* LedgerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerApp.swift; sourceTree = "<group>"; };
-		A00100000000000000000002 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
-		A00100000000000000000003 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
-		A00100000000000000000004 /* ExpenseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseStore.swift; sourceTree = "<group>"; };
-		A00100000000000000000005 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
-		A00100000000000000000006 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
-		A00100000000000000000007 /* CategoryPieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPieChartView.swift; sourceTree = "<group>"; };
-		A00100000000000000000008 /* SummaryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryCardView.swift; sourceTree = "<group>"; };
-		A00100000000000000000009 /* ExpenseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseListView.swift; sourceTree = "<group>"; };
-		A00100000000000000000010 /* ExpenseRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseRowView.swift; sourceTree = "<group>"; };
-		A00100000000000000000011 /* ExpenseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseDetailView.swift; sourceTree = "<group>"; };
-		A00100000000000000000012 /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
-		A00100000000000000000013 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
-		A00100000000000000000014 /* CategoryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRowView.swift; sourceTree = "<group>"; };
+		A00100000000000000000001 /* ExpenseTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerApp.swift; sourceTree = "<group>"; };
+		A00100000000000000000002 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		A00100000000000000000003 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A00100000000000000000015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A00100000000000000000016 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A00100000000000000000017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,97 +52,13 @@
 		100000000000000000000009 /* Ledger */ = {
 			isa = PBXGroup;
 			children = (
-				D00100000000000000000001 /* App */,
-				D00100000000000000000002 /* Models */,
-				D00100000000000000000003 /* ViewModels */,
-				D00100000000000000000004 /* Views */,
+				A00100000000000000000001 /* ExpenseTrackerApp.swift */,
+				A00100000000000000000002 /* Expense.swift */,
+				A00100000000000000000003 /* ContentView.swift */,
 				A00100000000000000000015 /* Assets.xcassets */,
 				A00100000000000000000017 /* Info.plist */,
-				D00100000000000000000009 /* Preview Content */,
 			);
 			path = Ledger;
-			sourceTree = "<group>";
-		};
-		D00100000000000000000001 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				A00100000000000000000001 /* LedgerApp.swift */,
-			);
-			path = App;
-			sourceTree = "<group>";
-		};
-		D00100000000000000000002 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				A00100000000000000000002 /* Category.swift */,
-				A00100000000000000000003 /* Expense.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		D00100000000000000000003 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				A00100000000000000000004 /* ExpenseStore.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		D00100000000000000000004 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				A00100000000000000000005 /* MainTabView.swift */,
-				D00100000000000000000005 /* Dashboard */,
-				D00100000000000000000006 /* Expenses */,
-				D00100000000000000000007 /* AddExpense */,
-				D00100000000000000000008 /* Categories */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		D00100000000000000000005 /* Dashboard */ = {
-			isa = PBXGroup;
-			children = (
-				A00100000000000000000006 /* DashboardView.swift */,
-				A00100000000000000000007 /* CategoryPieChartView.swift */,
-				A00100000000000000000008 /* SummaryCardView.swift */,
-			);
-			path = Dashboard;
-			sourceTree = "<group>";
-		};
-		D00100000000000000000006 /* Expenses */ = {
-			isa = PBXGroup;
-			children = (
-				A00100000000000000000009 /* ExpenseListView.swift */,
-				A00100000000000000000010 /* ExpenseRowView.swift */,
-				A00100000000000000000011 /* ExpenseDetailView.swift */,
-			);
-			path = Expenses;
-			sourceTree = "<group>";
-		};
-		D00100000000000000000007 /* AddExpense */ = {
-			isa = PBXGroup;
-			children = (
-				A00100000000000000000012 /* AddExpenseView.swift */,
-			);
-			path = AddExpense;
-			sourceTree = "<group>";
-		};
-		D00100000000000000000008 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				A00100000000000000000013 /* CategoriesView.swift */,
-				A00100000000000000000014 /* CategoryRowView.swift */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		D00100000000000000000009 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				A00100000000000000000016 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,20 +130,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B00100000000000000000001 /* LedgerApp.swift in Sources */,
-				B00100000000000000000002 /* Category.swift in Sources */,
-				B00100000000000000000003 /* Expense.swift in Sources */,
-				B00100000000000000000004 /* ExpenseStore.swift in Sources */,
-				B00100000000000000000005 /* MainTabView.swift in Sources */,
-				B00100000000000000000006 /* DashboardView.swift in Sources */,
-				B00100000000000000000007 /* CategoryPieChartView.swift in Sources */,
-				B00100000000000000000008 /* SummaryCardView.swift in Sources */,
-				B00100000000000000000009 /* ExpenseListView.swift in Sources */,
-				B00100000000000000000010 /* ExpenseRowView.swift in Sources */,
-				B00100000000000000000011 /* ExpenseDetailView.swift in Sources */,
-				B00100000000000000000012 /* AddExpenseView.swift in Sources */,
-				B00100000000000000000013 /* CategoriesView.swift in Sources */,
-				B00100000000000000000014 /* CategoryRowView.swift in Sources */,
+				B00100000000000000000001 /* ExpenseTrackerApp.swift in Sources */,
+				B00100000000000000000002 /* Expense.swift in Sources */,
+				B00100000000000000000003 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,7 +261,6 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
 				CODE_SIGNING_ALLOWED = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"Ledger/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Ledger/Info.plist;
@@ -405,7 +286,6 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
 				CODE_SIGNING_ALLOWED = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"Ledger/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Ledger/Info.plist;
